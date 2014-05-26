@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_update" android:title="@string/update_str" android:titleCondensed="update" android:alphabeticShortcut="u"></item>
+    <item android:id="@+id/menu_settings" android:title="@string/settings_str" android:titleCondensed="settings" android:alphabeticShortcut="s"></item>
+    <item android:id="@+id/menu_help" android:title="@string/help_str" android:titleCondensed="help" android:alphabeticShortcut="h"></item>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/test2">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" 
+        android:textSize="20sp" android:layout_width="wrap_content" android:text="@string/select_currency_str"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+        android:layout_margin="2dp">
+        <Spinner 
+        	android:layout_width="100dip" 
+        	android:layout_height="wrap_content" 
+        	android:id="@+id/spinner1"></Spinner>
+        <TextView android:textColor="#ffffcc" android:textStyle="bold" android:layout_height="wrap_content" android:id="@+id/textView2" android:textSize="40sp" 
+        	android:layout_width="wrap_content" android:text="@string/to_str"></TextView>
+        <Spinner 
+        	android:layout_width="100dip" 
+        	android:layout_height="wrap_content" 
+        	android:id="@+id/spinner2"></Spinner>
+        <Button android:text="&lt;Switch" android:layout_gravity="fill_horizontal" android:layout_width="wrap_content" 
+        	android:id="@+id/switch_button" android:layout_height="wrap_content" android:textSize="14sp"></Button>
+    </LinearLayout>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:textSize="20sp"/>
+<EditText 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:text="@string/empty" 
+	android:id="@+id/amount1_conversion" android:inputType="numberDecimal"></EditText>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+<Button 
+	android:text="@string/calculate"
+	android:id="@+id/calculate_button" 
+	android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+</LinearLayout>
+<TextView android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_width="wrap_content" android:text="@string/result_str" android:textSize="20sp"></TextView>
+<EditText 
+	android:layout_height="wrap_content" 
+	android:id="@+id/amount2_conversion" 
+	android:layout_width="fill_parent" 
+	android:text="@string/empty"
+	android:editable="false"></EditText>
+<TextView 
+	android:text="@string/textview" 
+	android:id="@+id/provider_textview" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" android:textSize="14sp"/>
+<TextView android:text="@string/textview" 
+    android:id="@+id/update_textview" 
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+	 android:textSize="14sp"></TextView>
+</LinearLayout>

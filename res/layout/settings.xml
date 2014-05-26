@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="1000dp"
+  android:orientation="vertical"
+  android:background="#304030">
+    <TextView android:text="@string/mode_" android:textSize="14sp"
+    	android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+		<RadioButton android:text="@string/currencies_directly_from_web" android:layout_height="wrap_content"  
+			android:id="@+id/radio0" 
+			android:layout_width="wrap_content" android:height="15dp"></RadioButton>
+		<RadioButton android:text="@string/currencies_from_db" android:layout_height="wrap_content" 
+			android:id="@+id/radio2" android:height="5dp" android:checked="true" 
+			android:layout_width="wrap_content" 
+			></RadioButton>
+	</RadioGroup>
+	
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+		<CheckBox android:layout_height="wrap_content" 
+		    android:text="@string/show_only_favourites" 
+		    android:textSize="14sp" android:layout_width="wrap_content" 
+		    android:id="@+id/chk_Favourites"></CheckBox>
+		<Button android:layout_height="wrap_content" android:id="@+id/btn_EditFavourites" android:text="@string/edit_favourites" android:layout_width="wrap_content"></Button>
+	</LinearLayout>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/update_period_in_minutes_must_be_bigger_than_3_for_editing_minutes_updates_must_be_set_to_off" 
+	    android:id="@+id/settings_error" 
+	    android:layout_width="wrap_content"></TextView>
+	<LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<EditText android:layout_height="wrap_content" android:id="@+id/edit_update_minutes" android:text="2" android:layout_width="100dip"
+			android:inputType="numberDecimal"></EditText>
+		<!--<CheckBox android:text="" android:id="@+id/checkBox_update_service" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>-->
+		<ToggleButton android:id="@+id/toggleButton_update" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="ToggleButton"></ToggleButton>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" android:id="@+id/linLayoutSettings" 
+	    android:layout_margin="2dp">
+		<Button android:layout_height="wrap_content" android:id="@+id/btn_ClearDb" android:text="@string/clear_db" android:layout_width="wrap_content"></Button>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Give Amount:</string>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="amount_str">amount</string>
+    <string name="select_currency_str">Choose conversion:</string>
+    <string name="result_str">Result</string>
+    <string name="to_str">&gt;</string>
+    <string name="empty"></string>
+    <string name="update_str">Update</string>
+    <string name="settings_str">Settings</string>
+    <string name="help_str">Help</string>
+    <string name="choose_provider_str">Choose rate provider</string>
+    <string name="help_txt">Dont\npanic!</string>
+    <string name="help_content_txt">First thing to do is not to panic. \n
+    								If you are running this software for \n
+    								the first time select update on main \n
+    								views menu option. \n
+    								This currency converter and you can close \n
+    								it by pressing back button of \n 
+    								your Android phone. You can convert \n
+    								between currencies by selecting \n 
+    								currencies from currency spinners and \n
+    								entering amount you want to convert \n
+    								and selecting calculate. By selecting \n
+    								update from menu you can update\n
+    								the currency databases up to date data. \n
+    								Selecting settings from main menu you \n
+    								get to edit settings. You can set the\n
+    								application to fetch currency rates \n
+    								directly everytime you are running conversion\n
+    								or only when you select update. Third \n
+    								option is to set automatic update that\n
+    								updates db periodically specified by \n
+    								minutes you enter. You can also set \n
+    								application to display only your \n
+    								favourite currencies. You get to edit \n
+    								your favourite currencies by pressing \n
+    								the favourites button. If data somehow \n
+    								gets corrupted you can also clear database.\n
+    								
+    								\n\nCopyrights: Matkalla työkkäriin production softwares</string>
+    <string name="error_str">Something went wrong go back</string>
+    <string name="Choose_mode">Choose mode</string>
+    <string-array name="update_modes">
+        <item>-1</item>
+        <item>2</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+	<string-array name="currencies">
+		<item>ADP|Andorran Peseta</item>
+		<item>AED|United Arab Emirates Dirham</item>
+		<item>AFA|Old Afghan Afghani</item>
+		<item>AFN|Afghan Afghani</item>
+		<item>ALL|Albanian Lek</item>
+		<item>AMD|Armenian Dram</item>
+		<item>ANG|Netherlands Antillean Guilder</item>
+		<item>AOA|Angolan Kwanza</item>
+		<item>ARS|Argentine Peso</item>
+		<item>ATS|Austrian Schilling</item>
+		<item>AUD|Australian Dollar</item>
+		<item>AWG|Aruban Florin</item>
+		<item>AZM|Old Azerbaijani Manat</item>
+		<item>AZN|Azerbaijani Manat</item>
+		<item>BAM|Bosnia-Herzegovina Convertible Mark</item>
+		<item>BBD|Barbados Dollar</item>
+		<item>BDT|Bangladeshi Taka</item>
+		<item>EEF|Belgian Franc</item>
+		<item>BGL|Bulgarian Old Lev</item>
+		<item>BGN|Bulgarian Lev</item>
+		<item>BHD|Bahraini Dinar</item>
+		<item>BIF|Burundian Franc</item>
+		<item>BMD|Bermuda Dollar</item>
+		<item>BND|Brunei Dollar</item>
+		<item>BOB|Bolivian Boliviano</item>
+		<item>BRC|Brazilian Cruzeiro</item>
+		<item>BRL|Brazilian Real</item>
+		<item>BSD|Bahamian Dollar</item>
+		<item>BTN|Bhutanese Ngultrum</item>
+		<item>BWP|Botswana Pula</item>
+		<item>BYR|Belarusian Ruble</item>
+		<item>BZD|Belize Dollar</item>
+		<item>CAD|Canadian Dollar</item>
+		<item>CDF|Franc Congolais</item>
+		<item>CHF|Swiss Franc</item>
+		<item>BRL|Brazilian Real</item>
+		<item>BSD|Bahamian Dollar</item>
+		<item>BTN|Bhutanese Ngultrum</item>
+		<item>BWP|Botswana Pula</item>
+		<item>BYR|Belarusian Ruble</item>
+		<item>BZD|Belize Dollar</item>
+		<item>CAD|Canadian Dollar</item>
+		<item>CDF|Franc Congolais</item>
+		<item>CHF|Swiss Franc</item>
+		<item>CLF|Chilean Unidad de Fomento</item>
+		<item>CLP|Chilean Peso</item>
+		<item>CNY|Chinese Yuan</item>
+		<item>COP|Colombian Peso</item>
+		<item>CRC|Costa Rican Colon</item>
+		<item>CSD|Serbian Dinar</item>
+		<item>CUC|Cuban Convertible Peso</item>
+		<item>CUP|Cuban Peso</item>
+		<item>CVE|Cape Verde Escudo</item>
+		<item>CYP|Cypriot Pound</item>
+		<item>CZK|Czech Koruna</item>
+		<item>DEM|German Mark</item>
+		<item>DJF|Djiboutian Franc</item>
+		<item>DKK|Danish Krone</item>
+		<item>DOP|Dominican Peso</item>
+		<item>DZD|Algerian Dinar</item>
+		<item>ECS|Ecuadorian Sucre</item>
+		<item>EEK|Estonian Kroon</item>
+		<item>EGP|Egyptian Pound</item>
+		<item>ERN|Eritrean Nakfa</item>
+		<item>ESP|Spanish Peseta</item>
+		<item>ETB|Ethiopian Birr</item>
+		<item>EUR|Euro</item>
+		<item>FIM|Finnish Mark</item>
+		<item>FJD|Fiji Dollar</item>
+		<item>FKP|</item>
+		<item>FRF|French Franc</item>
+		<item>GBP|Pound Sterling</item>
+		<item>GBX|Pence Sterling</item>
+		<item>GEL|Georgian Lari</item>
+		<item>GHC|Old Ghanaian Cedi</item>
+		<item>GHS|Ghanaian Cedi</item>
+		<item>GIP|Gibraltar Pound</item>
+		<item>GMD|Gambian Dalasi</item>
+		<item>GNF|Guinean Franc</item>
+		<item>GRD|Greek Drachma</item>
+		<item>GTQ|Guatemalan Quetzal</item>
+		<item>GYD|Guyanese Dollar</item>
+		<item>HKD|Hong Kong Dollar</item>
+		<item>HNL|Honduran Lempira</item>
+		<item>HRK|Croatian Kuna</item>
+		<item>HTG|Haitian Gourde</item>
+		<item>HUF|Hungarian Forint</item>
+		<item>IDR|Indonesian Rupiah</item>
+		<item>IEP|Irish Pound</item>
+		<item>ILS|Israeli New Shekel</item>
+		<item>INR|Indian Rupee</item>
+		<item>IQD|Iraqi Dinar</item>
+		<item>IRR|Iranian Rial</item>
+		<item>ISK|Icelandic Krona</item>
+		<item>ITL|Italian Lira</item>
+		<item>JMD|Jamaican Dollar</item>
+		<item>JOD|Jordanian Dinar</item>
+		<item>JPY|Japanese Yen</item>
+		<item>KES|Kenyan Shilling</item>
+		<item>KGS|Kyrgyzstani Som</item>
+		<item>KHR|Cambodian Riel</item>
+		<item>KMF|Comorian Franc</item>
+		<item>KPW|North Korean Won</item>
+		<item>KRW|Korean Won</item>
+		<item>KWD|Kuwaiti Dinar</item>
+		<item>KYD|Cayman Islands Dollar</item>
+		<item>KZT|Kazakhstani Tenge</item>
+		<item>LAK|Lao Kip</item>
+		<item>LBP|Lebanese Pound</item>
+		<item>LKR|Sri Lankan Rupee</item>
+		<item>LRD|Liberian Dollar</item>
+		<item>LSL|Lesotho Loti</item>
+		<item>LTL|Lithuanian Litas</item>
+		<item>LUF|Luxembourgian Franc</item>
+		<item>LVL|Latvian Lats</item>
+		<item>LYD|Libyan Dinar</item>
+		<item>MAD|Moroccan Dirham</item>
+		<item>MDL|Moldovan Leu</item>
+		<item>MGA|Malagasy Ariary</item>
+		<item>MGF|Malagasy Franc</item>
+		<item>MKD|Macedonia Denar</item>
+		<item>MMK|Myanmar Kyat</item>
+		<item>MNT|Mongolian Tugrik</item>
+		<item>MOP|Macau Pataca</item>
+		<item>MRO|Mauritania Ouguiya</item>
+		<item>MTL|Maltese Lira</item>
+		<item>MUR|Mauritian Rupee</item>
+		<item>MVR|Maldives Rufiyaa</item>
+		<item>MWK|Malawian Kwacha</item>
+		<item>MXN|Mexican Peso</item>
+		<item>MXP|Old Mexican Peso</item>
+		<item>MXV|Mexican Unidad De Inversion</item>
+		<item>MYR|Malaysian Ringgit</item>
+		<item>MZM|Old Mozambican Metical</item>
+		<item>MZN|New Mozambican Metical</item>
+		<item>NAD|Namibian Dollar</item>
+		<item>NGN|Nigerian Naira</item>
+		<item>NIO|Nicaraguan Cordoba Oro</item>
+		<item>NLG|Dutch Guilder</item>
+		<item>NOK|Norwegian Krone</item>
+		<item>NPR|Nepalese Rupee</item>
+		<item>NZD|New Zealand Dollar</item>
+		<item>OMR|Omani Rial</item>
+		<item>PAB|Panamanian Balboa</item>
+		<item>PEN|Peruvian Nuevo Sol</item>
+		<item>PGK|Papua New Guinea Kina</item>
+		<item>PHP|Philippine Peso</item>
+		<item>PKR|Pakistan Rupee</item>
+		<item>PLN|Polish Zloty</item>
+		<item>PTE|Portuguese Escudo</item>
+		<item>PYG|Paraguay Guarani</item>
+		<item>QAR|Qatari Riyal</item>
+		<item>ROL|Old Romanian Leu</item>
+		<item>RON|Romanian Leu</item>
+		<item>RSD|Serbian Dinar</item>
+		<item>RUB|Russian Ruble</item>
+		<item>RUR|Old Russian Ruble</item>
+		<item>RWF|Rwandan Franc</item>
+		<item>SAR|Saudi Arabian Riyal</item>
+		<item>SBD|Solomon Islands Dollar</item>
+		<item>SCR|Seychelles Rupee</item>
+		<item>SDD|Sudanese Dinar</item>
+		<item>SDG|Sudanese Pound</item>
+		<item>SDP|Sudanese Pound</item>
+		<item>SDR|Special Drawing Right</item>
+		<item>SEK|Swedish Krona</item>
+		<item>SGD|Singapore Dollar</item>
+		<item>SHP|Saint Helena Pound</item>
+		<item>SIT|Slovenian Tolar</item>
+		<item>SKK|Slovak Koruna</item>
+		<item>SLL|Sierra Leonean Leone</item>
+		<item>SOS|Somali Shilling</item>
+		<item>SRD|Suriname Dollar</item>
+		<item>SRG|Suriname Guilder</item>
+		<item>STD|Sao Tome Dobra</item>
+		<item>SVC|El Salvador Colon</item>
+		<item>SYP|Syrian Pound</item>
+		<item>SZL|Swazi Lilangeni</item>
+		<item>THB|Thai Baht</item>
+		<item>THO|Thai Offshore Baht</item>
+		<item>TJS|Tajikistan Somoni</item>
+		<item>TMM|Turkmenistan Manat</item>
+		<item>TND|Tunisian Dinar</item>
+		<item>TOP|Tongan Pa\'Anga</item>
+		<item>TRL|Turkish Lira</item>
+		<item>TRY|New Turkish Lira</item>
+		<item>TTD|Trinidad and Tobago Dollar</item>
+		<item>TWD|New Taiwan Dollar</item>
+		<item>TZS|Tanzanian Shilling</item>
+		<item>UAH|Ukrainian Hryvnia</item>
+		<item>UGX|Uganda Shilling</item>
+		<item>USD|United States Dollar</item>
+		<item>UYU|Uruguayan peso</item>
+		<item>UZS|Uzbekistani Som</item>
+		<item>VEB|Venezuelan Bolivar</item>
+		<item>VEF|Venezuelan Bolivar Fuerte</item>
+		<item>VND|Viet Nam Dong</item>
+		<item>VUV|Vanuatu Vatu</item>
+		<item>WST|Samoa Tala</item>
+		<item>XAF|Central African CFA</item>
+		<item>XAG|Ounces of Silver</item>
+		<item>XAL|Ounces of Aluminum</item>
+		<item>XAU|Ounces of Gold</item>
+		<item>XCD|East Caribbean Dollar</item>
+		<item>XCP|Ounces of Copper</item>
+		<item>XEU|European Currency Unit</item>
+		<item>XOF|West African CFA</item>
+		<item>XPD|Ounces of Palladium</item>
+		<item>XPF|French Pacific Franc</item>
+		<item>XPT|Ounces of Platinum</item>
+		<item>YER|Yemeni Rial</item>
+		<item>YUM|Yugoslavian Dinar</item>
+		<item>ZAR|South African Rand</item>
+		<item>ZMK|Zambian Kwacha</item>
+		<item>ZRN|New Zaire</item>
+		<item>ZWD|Zimbabwe Dollar</item>
+		<item>ZWN|New Zimbabwe Dollar</item>
+	</string-array>
+		<string name="calculate">Calculate</string>
+		<string name="clear_db">Clear db</string>
+		<string name="currencies_directly_from_web">Currencies directly from web</string>
+		<string name="currencies_from_db">Currencies from db</string>
+		<string name="edit_favourites">Edit favourites</string>
+		<string name="mode_">Mode:</string>
+		<string name="show_only_favourites">Show only favourites</string>
+		<string name="update_period_in_minutes_must_be_bigger_than_3_for_editing_minutes_updates_must_be_set_to_off">Update period in minutes, must be bigger than 3, for editing minutes updates must be set to off</string>
+		<string name="textview">TextView</string>
+</resources>
